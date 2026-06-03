@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Camp Wilderness - Summer Adventure</title>
+</head>
+<body>
+    <header>
+        <h1> Welcome to Camp Wilderness 2026.</h1>
+        <p><em>The ultimate summer adventure for young explorers.</em></p>
+        <hr>
+    </header>
+
+    <main>
+        <section>
+            <h2>About Our Camp</h2>
+            <p>Every summer, Camp Wilderness brings together kids from all over to learn outdoor skills, build lifelong friendships, and create unforgettable memories. Located right in the heart of the majestic pine forests, we offer a safe and thrilling environment.</p>
+            
+        </section>
+
+        <section>
+            <h2>Camp Activities</h2>
+            <p>We believe in learning by doing. Here are some of the activities our campers enjoy:</p>
+            <ul>
+                <li><strong>Archery & Outdoor Survival</strong></li>
+                <li><strong>Kayaking & Lake Swimming</strong></li>
+                <li><strong>Arts, Crafts, & Pottery</strong></li>
+                <li><strong>Nightly Campfires & Storytelling</strong></li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Camp Sessions & Pricing</h2>
+            <table border="1" cellpadding="10">
+                <thead>
+                    <tr>
+                        <th>Session</th>
+                        <th>Dates</th>
+                        <th>Age Group</th>
+                        <th>Price</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Explorer Week</td>
+                        <td>June 15 - June 22</td>
+                        <td>8 - 12</td>
+                        <td>₹500</td>
+                    </tr>
+                    <tr>
+                        <td>Adventure Fortnight</td>
+                        <td>July 5 - July 19</td>
+                        <td>12 - 16</td>
+                        <td>₹800</td>
+                    </tr>
+                    <tr>
+                        <td>Counselor in Training</td>
+                        <td>August 1 - August 10</td>
+                        <td>16 - 18</td>
+                        <td>₹1000</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section>
+            <h2>Reserve Your Spot</h2>
+            
+            <form action="#" method="POST">
+                <label for="camper-name">Camper's Full Name:</label><br>
+                <input type="text" id="camper-name" name="camper-name" required><br><br>
+
+                <label for="camper-age">Camper's Age:</label><br>
+                <input type="number" id="camper-age" name="camper-age" min="5" max="18" required><br><br>
+
+                <label for="session-select">Choose a Session:</label><br>
+                <select id="session-select" name="session">
+                    <option value="explorer">Explorer Week (June)</option>
+                    <option value="adventure">Adventure Fortnight (July)</option>
+                    <option value="cit">Counselor in Training (August)</option>
+                </select><br><br>
+
+                <label for="notes">Special Notes / Dietary Restrictions:</label><br>
+                <textarea id="notes" name="notes" rows="4" cols="40" placeholder="Let us know..."></textarea><br><br>
+
+                <input type="submit" value="Submit Registration Request">
+            </form>
+        </section>
+    </main>
+
+    <hr>
+    <footer>
+        <p>&copy; 2026 Camp Wilderness Inc. All rights reserved.</p>
+       
+    </footer>
+</body>
+</html>
